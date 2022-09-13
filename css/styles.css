@@ -8,6 +8,8 @@
   --secondary-logo-color: #000000;
   --btn-active-color: #188ce8;
   --address-nav-color: rgba(255, 255, 255, 0.6);
+  --header-border-color: #ececec;
+  --portfplio-card-border-color: #eeeeee;
 }
 
 body {
@@ -57,6 +59,9 @@ img {
 }
 
 /* Main nav */
+header {
+  border-bottom: 1px solid var(--header-border-color);
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -370,6 +375,8 @@ img {
 }
 .item-contant {
   padding: 20px 24px;
+  border: 1px solid var(--portfplio-card-border-color);
+  border-top: 0;
 }
 .item-text {
   font-size: 16px;
